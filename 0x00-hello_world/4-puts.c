@@ -1,10 +1,11 @@
 #include <stdio.h>
-int main (void)
+int main(void)
 {/**
  * main - main entry
  */
-puts ("\"Programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
-/* return 0 = success
+/**
+ * return 0 = success
  */
 }
