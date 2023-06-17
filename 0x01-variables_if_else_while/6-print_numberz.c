@@ -6,9 +6,12 @@
  */
 int main(void)
 {
-int numb;
-for (numb = 0; numb < 10; numb++);
-putchar((numb % 10) + '0');
+int x = 0;
+while (x < 10)
+{
+putchar(x);
+x++;
+}
 putchar('\n');
 return (0);
 }
