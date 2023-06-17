@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-*main - Entry point 
-*Description: 'print combination'
+*main-Entry point
+*Description:'print combination'
 *Return: Always 0 (Success)
 */
 int main(void)
@@ -15,8 +15,6 @@ continue;
 putchar(',');
 putchar(' ');
 }
-
 putchar('\n');
-
 return (0);
 }
