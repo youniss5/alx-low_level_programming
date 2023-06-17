@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* main - Entry point 
+* main-Entry point 
 * Description:'2-2 digit num program'
 * Return: Always 0 (Success)
 */
