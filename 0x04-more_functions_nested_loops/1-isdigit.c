@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isupper - checks if the c is a digit or not
+ *_isdigit - checks if the c is a digit or not
  *@c : char to be tested.
  *Return: 1 if its upper case and 0 if its not
  */
