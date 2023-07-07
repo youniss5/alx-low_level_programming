@@ -17,7 +17,7 @@ printf("%d\n", sum);
 }
 else
 {
-printf("error\n");
+printf("Error\n");
 return (1);
 }
 return (0);
