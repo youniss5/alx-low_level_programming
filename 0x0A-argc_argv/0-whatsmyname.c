@@ -2,8 +2,8 @@
 
 /**
  * main - prints its name, followed by a new line.
- * @argc: integer
- * @argv: array
+ * @argc: number of command line arguements.
+ * @argv: pointer to an array of command line arguements
  * Return: 0
  */
 int main(int argc, char *argv[])
