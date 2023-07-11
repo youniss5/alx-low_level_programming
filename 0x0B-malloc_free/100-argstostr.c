@@ -21,13 +21,12 @@ return (size);
  */
 char *argstostr(int ac, char **av)
 {
-int i = 0, ic = 0;
-int j = 0, cmp = 0;
+int i = 0, ic = 0, j = 0, cmp = 0;
 char *s;
 
 if (ac == 0 || av == NULL)
 return (NULL);
-for (; i < ac; i++, ac++)
+for (; i < ac; i++, ic++)
 ic += _strlen(av[i]);
 s = malloc(sizeof(char) * ic + 1);
 if (s == 0)
