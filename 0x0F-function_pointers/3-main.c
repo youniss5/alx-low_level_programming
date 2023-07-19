@@ -5,7 +5,7 @@
  * @argv: arguments vector
  * Return: 0 (SUCCESS)
  */
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
 int (*op_func)(int, int), a, b;
 if (argc != 4)
