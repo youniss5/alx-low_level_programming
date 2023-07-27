@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * add_node - adds a node to the start of the list
  * @head: address of pointer to head node
@@ -13,7 +13,7 @@ if (!head || !new_head)
 return (NULL);
 if (str)
 {
-new_head->str = strdub(str);
+new_head->str = strdup(str);
 if (!new_head->str)
 {
 free(new_head);
