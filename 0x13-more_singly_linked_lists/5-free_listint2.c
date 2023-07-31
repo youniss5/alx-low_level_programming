@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * free_listint2 - frees the linked list
- * @head: pointer to the first node
+ * @head:adress of the pointer to the first node
  * Return: void
  */
 void free_listint2(listint_t **head)
