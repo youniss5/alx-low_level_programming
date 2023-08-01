@@ -24,7 +24,7 @@ return (new_node);
 node = *head;
 while (node)
 {
-if (i == idx)
+if (i == idx - 1)
 {
 new_node->next = node->next;
 node->next = new_node;
