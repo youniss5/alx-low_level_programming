@@ -2,6 +2,7 @@
 /**
  * set_bit - sets the value of a bit to a given index
  * @n: the number of index
+ * @index: bit to change
  * Return: 1 if success , -1 for error
  */
 int set_bit(unsigned long int *n, unsigned int index)
