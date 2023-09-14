@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * print_dlistint -  function that prints all the elements of a list
- * @head: head node address
+ * @h: head node address
  * Return: size of the list
  */
 size_t print_dlistint(const dlistint_t *h)
