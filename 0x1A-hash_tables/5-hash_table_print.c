@@ -26,5 +26,5 @@ flag = 1;
 tm = tm->next;
 }
 }
-printf("\n");
+printf("}\n");
 }
