@@ -37,11 +37,6 @@ typedef struct skiplist
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
 void print_array(int *array, int size);
-int jump_search(int *array, size_t size, int value);
-int interpolation_search(int *array, size_t size, int value);
-int exponential_search(int *array, size_t size, int value);
-int advanced_binary(int *array, size_t size, int value);
-int recursive_binary_search(int *array, int low, int high, int value);
 listint *jump_list(listint *list, size_t size, int value);
 skiplist *linear_skip(skiplist *list, int value);
 
